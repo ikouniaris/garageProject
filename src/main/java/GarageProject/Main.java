@@ -81,7 +81,7 @@ public class Main {
 
         garage.parkVehicle(m2, emp1);
 
-//Wait
+        //Wait
         try {
             TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException ex) {

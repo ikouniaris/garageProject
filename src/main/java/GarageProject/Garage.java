@@ -27,7 +27,7 @@ public class Garage {
         }
 
     }
-//Check if garage has empty spots
+    //Check if garage has empty spots
 
     public boolean hasSpotsLeft() {
         if (spotsLeft == 0) {
@@ -50,7 +50,7 @@ public class Garage {
             return;
         }
 
-//Check if valid license plate 
+        //Check if valid license plate 
         if (vehicle.getLicensePlate().equalsIgnoreCase("")) {
             System.out.println("License plate can not be empty, " + vehicle.getType() + " " + vehicle.getLicensePlate() + " not parked.");
             return;
